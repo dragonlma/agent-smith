@@ -1,0 +1,46 @@
+1517434901,2018/01/31:16:41:41_EST-0500,2018/01/31:21:41:41,ns100183 147.135.1.167,/usr/bin/timeout 1 bash -c "/usr/bin/sudo /bin/dmesg -T -l err,warn | tail -1000"
+----------------------
+[Tue Jan 30 16:28:28 2018] kexec_core: crashkernel: memory value expected
+[Tue Jan 30 16:28:28 2018] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[Tue Jan 30 16:28:28 2018] ENERGY_PERF_BIAS: View and update with x86_energy_perf_policy(8)
+[Tue Jan 30 16:28:28 2018] kvm: already loaded the other module
+[Tue Jan 30 16:28:28 2018] DLM installed
+[Tue Jan 30 16:28:28 2018] OCFS2 User DLM kernel interface loaded
+[Tue Jan 30 16:28:30 2018] 3ware Storage Controller device driver for Linux v1.26.02.003.
+[Tue Jan 30 16:28:30 2018] 3ware 9000 Storage Controller device driver for Linux v2.26.02.014.
+[Tue Jan 30 16:28:41 2018] md: sdb2 has different UUID to sdb3
+[Tue Jan 30 16:28:41 2018] md: sda2 has different UUID to sdb3
+[Tue Jan 30 16:28:41 2018] <sdb3>
+[Tue Jan 30 16:28:41 2018] <sda3>
+
+[Tue Jan 30 16:28:41 2018] <sdb2>
+[Tue Jan 30 16:28:41 2018] <sda2>
+
+[Tue Jan 30 16:28:41 2018] EXT4-fs (md2): couldn't mount as ext3 due to feature incompatibilities
+[Tue Jan 30 16:28:42 2018] systemd-readahead[353]: Failed to create fanotify object: Function not implemented
+[Tue Jan 30 16:31:44 2018] systemd: 52 output lines suppressed due to ratelimiting
+[Tue Jan 30 16:32:27 2018] 
+ This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)
+ CPU branch injection vulnerability mitigation. (Historically, Red Hat has provided updated
+ microcode, developed by our microprocessor partners, as a customer convenience.) Further
+ testing has uncovered problems with the microcode provided along with the “Spectre” mitigation
+ that could lead to system instabilities. As a result, Red Hat is providing an microcode update
+ that reverts to the last known good microcode version dated before 03 January 2018.
+ Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.
+
+ IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and
+ install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires
+ both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+
+[Tue Jan 30 16:56:58 2018] This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)
+CPU branch injection vulnerability mitigation.  (HIstorically, Red Hat has provided updated
+microcode, developed by our microprocessor partners, as a customer convenience.)  Further
+testing has uncovered problems with the microcode provided along with the “Spectre” mitigation
+that could lead to system instabilities.  As a result, Red Hat is providing an microcode update
+that reverts to the last known good microcode version dated before 03 January 2018.
+Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.
+
+IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and
+install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires
+both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+[Wed Jan 31 00:36:51 2018] nr_pdflush_threads exported in /proc is scheduled for removal

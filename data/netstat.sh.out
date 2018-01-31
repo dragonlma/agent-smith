@@ -1,0 +1,26 @@
+1517434901,2018/01/31:16:41:41_EST-0500,2018/01/31:21:41:41,ns100183 147.135.1.167,/usr/bin/timeout 1 bash -c "/usr/bin/sudo /bin/netstat -napt | head -20002"
+----------------------
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      28866/nc            
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1440/sshd           
+tcp        0   8836 147.135.1.167:22        204.14.239.17:17180     ESTABLISHED 28712/sshd: ling.ma 
+tcp        0      0 147.135.1.167:22        42.7.26.88:53012        ESTABLISHED 29000/sshd: root [p 
+tcp        0      0 147.135.1.167:22        204.14.239.17:25226     ESTABLISHED 7471/sshd: ling.ma  
+tcp        0      0 147.135.1.167:22        204.14.239.17:34989     ESTABLISHED 27735/sshd: ling.ma 
+tcp6       0      0 :::111                  :::*                    LISTEN      1/systemd           
+tcp6       0      0 :::8080                 :::*                    LISTEN      28866/nc            
+tcp6       0      0 :::22                   :::*                    LISTEN      1440/sshd           
+tcp6       0      0 ::1:41550               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41562               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41566               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41568               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41554               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41558               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41552               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41564               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41560               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41546               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41556               ::1:8080                TIME_WAIT   -                   
+tcp6       0      0 ::1:41548               ::1:8080                TIME_WAIT   -                   

@@ -1,0 +1,3 @@
+killall nc;
+killall python;
+
